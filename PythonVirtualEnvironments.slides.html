@@ -15183,7 +15183,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="What-is-a-Virtual-Environment?">What is a Virtual Environment?<a class="anchor-link" href="#What-is-a-Virtual-Environment?">&#182;</a></h2><p>A combination of settings (environment variables) that control what Python interpreter is used and where the intepreter finds python modules.</p>
+<h3 id="What-is-a-Virtual-Environment?">What is a Virtual Environment?<a class="anchor-link" href="#What-is-a-Virtual-Environment?">&#182;</a></h3><p>A combination of settings (environment variables) that control what Python interpreter is used and where the intepreter finds python modules.</p>
 
 </div>
 </div>
@@ -15195,7 +15195,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Why-to-use-Virtual-Environments?">Why to use Virtual Environments?<a class="anchor-link" href="#Why-to-use-Virtual-Environments?">&#182;</a></h2><ul>
+<h3 id="Why-to-use-Virtual-Environments?">Why to use Virtual Environments?<a class="anchor-link" href="#Why-to-use-Virtual-Environments?">&#182;</a></h3><ul>
 <li>Avoid messing up packages in system install of Python</li>
 <li>Maintain per-project sets of packages (different projects require different requirements)</li>
 <li>Ability to reproduce an environment</li>
@@ -15211,7 +15211,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Python-Virtual-Environment-Tools">Python Virtual Environment Tools<a class="anchor-link" href="#Python-Virtual-Environment-Tools">&#182;</a></h2><ul>
+<h3 id="Python-Virtual-Environment-Tools">Python Virtual Environment Tools<a class="anchor-link" href="#Python-Virtual-Environment-Tools">&#182;</a></h3><ul>
 <li><code>virtualenv</code> (For Python2)</li>
 <li><code>venv</code> and <code>pip</code></li>
 <li><code>conda</code></li>
@@ -15249,7 +15249,7 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Creating-a-Virtual-Environment-with-venv">Creating a Virtual Environment with venv<a class="anchor-link" href="#Creating-a-Virtual-Environment-with-venv">&#182;</a></h2><div class="highlight"><pre><span></span>john@desktop:~$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Projects
+<h3 id="Creating-a-Virtual-Environment-with-venv">Creating a Virtual Environment with venv<a class="anchor-link" href="#Creating-a-Virtual-Environment-with-venv">&#182;</a></h3><div class="highlight"><pre><span></span>john@desktop:~$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>Projects
 john@desktop:~/Projects$<span class="w"> </span>mkdir<span class="w"> </span>my_project1<span class="w">  </span><span class="c1"># project files here</span>
 john@desktop:~/Projects$<span class="w"> </span>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>my_project1-venv<span class="w">  </span><span class="c1"># virtual environment</span>
 </pre></div>
@@ -15264,7 +15264,7 @@ john@desktop:~/Projects$<span class="w"> </span>python3<span class="w"> </span>-
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="The-Resulting-Directories">The Resulting Directories<a class="anchor-link" href="#The-Resulting-Directories">&#182;</a></h2><div class="highlight"><pre><span></span>john@desktop:~/Projects$<span class="w"> </span>ls<span class="w"> </span>-l
+<h3 id="The-Resulting-Directories">The Resulting Directories<a class="anchor-link" href="#The-Resulting-Directories">&#182;</a></h3><div class="highlight"><pre><span></span>john@desktop:~/Projects$<span class="w"> </span>ls<span class="w"> </span>-l
 total<span class="w"> </span><span class="m">16</span>
 drwxrwxr-x<span class="w"> </span><span class="m">2</span><span class="w"> </span>john<span class="w"> </span>john<span class="w"> </span><span class="m">4096</span><span class="w"> </span>Sep<span class="w"> </span><span class="m">23</span><span class="w"> </span><span class="m">22</span>:08<span class="w"> </span>my_project1
 drwxrwxr-x<span class="w"> </span><span class="m">6</span><span class="w"> </span>john<span class="w"> </span>john<span class="w"> </span><span class="m">4096</span><span class="w"> </span>Sep<span class="w"> </span><span class="m">23</span><span class="w"> </span><span class="m">22</span>:09<span class="w"> </span>my_project1-venv
@@ -15298,7 +15298,7 @@ drwxrwxr-x<span class="w"> </span><span class="m">6</span><span class="w"> </spa
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Contents-of-Virtual-Environment-Directory">Contents of Virtual Environment Directory<a class="anchor-link" href="#Contents-of-Virtual-Environment-Directory">&#182;</a></h2><div class="highlight"><pre><span></span>john@desktop:~/Projects$<span class="w"> </span>ls<span class="w"> </span>my_project1-venv/
+<h3 id="Contents-of-Virtual-Environment-Directory">Contents of Virtual Environment Directory<a class="anchor-link" href="#Contents-of-Virtual-Environment-Directory">&#182;</a></h3><div class="highlight"><pre><span></span>john@desktop:~/Projects$<span class="w"> </span>ls<span class="w"> </span>my_project1-venv/
 bin<span class="w">  </span>include<span class="w">  </span>lib<span class="w">  </span>lib64<span class="w">  </span>pyvenv.cfg<span class="w">  </span>share
 </pre></div>
 <ul>
@@ -15316,7 +15316,7 @@ bin<span class="w">  </span>include<span class="w">  </span>lib<span class="w"> 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Activating-Your-Virtual-Environment">Activating Your Virtual Environment<a class="anchor-link" href="#Activating-Your-Virtual-Environment">&#182;</a></h2><p><strong>Linux &amp; Mac</strong></p>
+<h3 id="Activating-Your-Virtual-Environment">Activating Your Virtual Environment<a class="anchor-link" href="#Activating-Your-Virtual-Environment">&#182;</a></h3><p><strong>Linux &amp; Mac</strong></p>
 <p><code>john@desktop:~/Projects$ source ./my_project1-venv/bin/activate</code></p>
 <p><strong>Windows (PowerShell)</strong></p>
 <p><code>PS C:\Users\john\Projects&gt; &amp; my_project1-venv\Scripts\activate.ps1</code></p>
@@ -15333,7 +15333,7 @@ bin<span class="w">  </span>include<span class="w">  </span>lib<span class="w"> 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Your-Virtual-Env-is-Now-Active">Your Virtual Env is Now Active<a class="anchor-link" href="#Your-Virtual-Env-is-Now-Active">&#182;</a></h2><p>Note that your command line prompted has been altered to indicate the virtual environment is active</p>
+<h3 id="Your-Virtual-Env-is-Now-Active">Your Virtual Env is Now Active<a class="anchor-link" href="#Your-Virtual-Env-is-Now-Active">&#182;</a></h3><p>Note that your command line prompted has been altered to indicate the virtual environment is active</p>
 <p><code>(my_project1-venv) john@desktop:~/Projects$</code></p>
 
 </div>
@@ -15346,7 +15346,7 @@ bin<span class="w">  </span>include<span class="w">  </span>lib<span class="w"> 
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Get-Help:-pip-help">Get Help: <code>pip help</code><a class="anchor-link" href="#Get-Help:-pip-help">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>pip<span class="w"> </span><span class="nb">help</span>
+<h3 id="Get-Help:-pip-help">Get Help: <code>pip help</code><a class="anchor-link" href="#Get-Help:-pip-help">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>pip<span class="w"> </span><span class="nb">help</span>
 
 Usage:<span class="w">   </span>
 <span class="w">  </span>pip<span class="w"> </span>&lt;command&gt;<span class="w"> </span><span class="o">[</span>options<span class="o">]</span>
@@ -15367,7 +15367,7 @@ Commands:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Get-Help-for-Specific-Command">Get Help for Specific Command<a class="anchor-link" href="#Get-Help-for-Specific-Command">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>pip<span class="w"> </span><span class="nb">help</span><span class="w"> </span>install
+<h3 id="Get-Help-for-Specific-Command">Get Help for Specific Command<a class="anchor-link" href="#Get-Help-for-Specific-Command">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>pip<span class="w"> </span><span class="nb">help</span><span class="w"> </span>install
 
 Usage:<span class="w">   </span>
 <span class="w">  </span>pip<span class="w"> </span>install<span class="w"> </span><span class="o">[</span>options<span class="o">]</span><span class="w"> </span>&lt;requirement<span class="w"> </span>specifier&gt;<span class="w"> </span><span class="o">[</span>package-index-options<span class="o">]</span><span class="w"> </span>...
@@ -15386,7 +15386,7 @@ Usage:<span class="w">   </span>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="List-Installed-Packages:-pip-list">List Installed Packages: pip list<a class="anchor-link" href="#List-Installed-Packages:-pip-list">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>pip<span class="w"> </span>list
+<h3 id="List-Installed-Packages:-pip-list">List Installed Packages: pip list<a class="anchor-link" href="#List-Installed-Packages:-pip-list">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>pip<span class="w"> </span>list
 Package<span class="w">       </span>Version
 -------------<span class="w"> </span>-------
 pip<span class="w">           </span><span class="m">20</span>.0.2<span class="w"> </span>
@@ -15404,7 +15404,7 @@ setuptools<span class="w">    </span><span class="m">44</span>.0.0
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Install-a-Package:-pip-install">Install a Package: pip install<a class="anchor-link" href="#Install-a-Package:-pip-install">&#182;</a></h2><p>To install a specific version of a package use <code>==VERSION_NUMBER</code>.  If the version number is omitted, the latest version will be installed.</p>
+<h3 id="Install-a-Package:-pip-install">Install a Package: pip install<a class="anchor-link" href="#Install-a-Package:-pip-install">&#182;</a></h3><p>To install a specific version of a package use <code>==VERSION_NUMBER</code>.  If the version number is omitted, the latest version will be installed.</p>
 <div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>jocassid-commons<span class="o">==</span><span class="m">0</span>.0.2
 Collecting<span class="w"> </span>jocassid-commons<span class="o">==</span><span class="m">0</span>.0.2
 <span class="w">  </span>Downloading<span class="w"> </span>jocassid_commons-0.0.2-py3-none-any.whl<span class="w"> </span><span class="o">(</span><span class="m">2</span>.3<span class="w"> </span>kB<span class="o">)</span>
@@ -15422,7 +15422,7 @@ Successfully<span class="w"> </span>installed<span class="w"> </span>jocassid-co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Upgrade-a-Package:-pip-install">Upgrade a Package: pip install<a class="anchor-link" href="#Upgrade-a-Package:-pip-install">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1<span class="nv">$pip</span><span class="w"> </span>install<span class="w"> </span>jocassid-commons<span class="o">==</span><span class="m">0</span>.0.3
+<h3 id="Upgrade-a-Package:-pip-install">Upgrade a Package: pip install<a class="anchor-link" href="#Upgrade-a-Package:-pip-install">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1<span class="nv">$pip</span><span class="w"> </span>install<span class="w"> </span>jocassid-commons<span class="o">==</span><span class="m">0</span>.0.3
 Collecting<span class="w"> </span>jocassid-commons<span class="o">==</span><span class="m">0</span>.0.3
 <span class="w">  </span>Downloading<span class="w"> </span>jocassid_commons-0.0.3-py3-none-any.whl<span class="w"> </span><span class="o">(</span><span class="m">2</span>.5<span class="w"> </span>kB<span class="o">)</span>
 Installing<span class="w"> </span>collected<span class="w"> </span>packages:<span class="w"> </span>jocassid-commons
@@ -15443,7 +15443,7 @@ Successfully<span class="w"> </span>installed<span class="w"> </span>jocassid-co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Upgrade-Package-to-Latest-Version:-pip-install---upgrade">Upgrade Package to Latest Version: pip install --upgrade<a class="anchor-link" href="#Upgrade-Package-to-Latest-Version:-pip-install---upgrade">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>jocassid-commons
+<h3 id="Upgrade-Package-to-Latest-Version:-pip-install---upgrade">Upgrade Package to Latest Version: pip install --upgrade<a class="anchor-link" href="#Upgrade-Package-to-Latest-Version:-pip-install---upgrade">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>jocassid-commons
 Collecting<span class="w"> </span>jocassid-commons
 <span class="w">  </span>Using<span class="w"> </span>cached<span class="w"> </span>jocassid_commons-0.0.8-py3-none-any.whl<span class="w"> </span><span class="o">(</span><span class="m">6</span>.4<span class="w"> </span>kB<span class="o">)</span>
 Installing<span class="w"> </span>collected<span class="w"> </span>packages:<span class="w"> </span>jocassid-commons
@@ -15464,7 +15464,7 @@ Successfully<span class="w"> </span>installed<span class="w"> </span>jocassid-co
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Install-a-Package-that-has-Dependencies">Install a Package that has Dependencies<a class="anchor-link" href="#Install-a-Package-that-has-Dependencies">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>requests
+<h3 id="Install-a-Package-that-has-Dependencies">Install a Package that has Dependencies<a class="anchor-link" href="#Install-a-Package-that-has-Dependencies">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>requests
 Collecting<span class="w"> </span>requests
 <span class="w">  </span>Using<span class="w"> </span>cached<span class="w"> </span>requests-2.32.3-py3-none-any.whl<span class="w"> </span><span class="o">(</span><span class="m">64</span><span class="w"> </span>kB<span class="o">)</span>
 Collecting<span class="w"> </span>urllib3&lt;<span class="m">3</span>,&gt;<span class="o">=</span><span class="m">1</span>.21.1
@@ -15491,7 +15491,7 @@ Successfully<span class="w"> </span>installed<span class="w"> </span>certifi-202
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Show-Package-Details:-pip-show">Show Package Details: pip show<a class="anchor-link" href="#Show-Package-Details:-pip-show">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>show<span class="w"> </span>requests
+<h3 id="Show-Package-Details:-pip-show">Show Package Details: pip show<a class="anchor-link" href="#Show-Package-Details:-pip-show">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>show<span class="w"> </span>requests
 Name:<span class="w"> </span>requests
 Version:<span class="w"> </span><span class="m">2</span>.32.3
 Summary:<span class="w"> </span>Python<span class="w"> </span>HTTP<span class="w"> </span><span class="k">for</span><span class="w"> </span>Humans.
@@ -15514,7 +15514,7 @@ Required-by:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Create-Reproducible-Virtual-Env:-pip-freeze">Create Reproducible Virtual Env: pip freeze<a class="anchor-link" href="#Create-Reproducible-Virtual-Env:-pip-freeze">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>freeze
+<h3 id="Create-Reproducible-Virtual-Env:-pip-freeze">Create Reproducible Virtual Env: pip freeze<a class="anchor-link" href="#Create-Reproducible-Virtual-Env:-pip-freeze">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>freeze
 <span class="nv">certifi</span><span class="o">==</span><span class="m">2024</span>.8.30
 charset-normalizer<span class="o">==</span><span class="m">3</span>.3.2
 <span class="nv">idna</span><span class="o">==</span><span class="m">3</span>.10
@@ -15533,7 +15533,7 @@ jocassid-commons<span class="o">==</span><span class="m">0</span>.0.8
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Create-the-requirements.txt-file:-pip-freeze">Create the requirements.txt file: pip freeze<a class="anchor-link" href="#Create-the-requirements.txt-file:-pip-freeze">&#182;</a></h2><p>Just pipe output of <code>pip freeze</code> to requirements.txt</p>
+<h3 id="Create-the-requirements.txt-file:-pip-freeze">Create the requirements.txt file: pip freeze<a class="anchor-link" href="#Create-the-requirements.txt-file:-pip-freeze">&#182;</a></h3><p>Just pipe output of <code>pip freeze</code> to requirements.txt</p>
 <p>(my_project1-venv) john@desktop:~/Projects/my_project1$ pip freeze &gt; requirements.txt</p>
 
 </div>
@@ -15564,7 +15564,7 @@ jocassid-commons<span class="o">==</span><span class="m">0</span>.0.8
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Deactivate-the-Virtual-Env:-deactivate">Deactivate the Virtual Env: deactivate<a class="anchor-link" href="#Deactivate-the-Virtual-Env:-deactivate">&#182;</a></h1><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>deactivate
+<h3 id="Deactivate-the-Virtual-Env:-deactivate">Deactivate the Virtual Env: deactivate<a class="anchor-link" href="#Deactivate-the-Virtual-Env:-deactivate">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>deactivate
 john@desktop:~/Projects/my_project1$
 </pre></div>
 
@@ -15578,7 +15578,7 @@ john@desktop:~/Projects/my_project1$
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Rebuilding-my-Virtual-Env">Rebuilding my Virtual Env<a class="anchor-link" href="#Rebuilding-my-Virtual-Env">&#182;</a></h2><ol>
+<h3 id="Rebuilding-my-Virtual-Env">Rebuilding my Virtual Env<a class="anchor-link" href="#Rebuilding-my-Virtual-Env">&#182;</a></h3><ol>
 <li>delete the virtual env.</li>
 </ol>
 <div class="highlight"><pre><span></span>john@desktop:~/Projects/my_project1$<span class="w"> </span>rm<span class="w"> </span>-rf<span class="w"> </span>../my_project1-venv/
@@ -15629,7 +15629,7 @@ john@desktop:~/Projects/my_project1$<span class="w"> </span><span class="nb">cd<
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Install-Packages-Listed-in-requirements.txt:-pip-install--r">Install Packages Listed in requirements.txt: pip install -r<a class="anchor-link" href="#Install-Packages-Listed-in-requirements.txt:-pip-install--r">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt<span class="w"> </span>
+<h3 id="Install-Packages-Listed-in-requirements.txt:-pip-install--r">Install Packages Listed in requirements.txt: pip install -r<a class="anchor-link" href="#Install-Packages-Listed-in-requirements.txt:-pip-install--r">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt<span class="w"> </span>
 Collecting<span class="w"> </span><span class="nv">certifi</span><span class="o">==</span><span class="m">2024</span>.8.30
 <span class="w">  </span>Using<span class="w"> </span>cached<span class="w"> </span>certifi-2024.8.30-py3-none-any.whl<span class="w"> </span><span class="o">(</span><span class="m">167</span><span class="w"> </span>kB<span class="o">)</span>
 ...
@@ -15640,55 +15640,583 @@ Successfully<span class="w"> </span>installed<span class="w"> </span>certifi-202
 </div>
 </div>
 </div>
-</div><div id="cell-id=ba05951f-e2bf-49d3-a213-9c0ba07bd498" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></section></section><section ><section >
+<div id="cell-id=13e3c690-2cfd-4541-ba65-987515f55e50" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Uninstall-Package:-pip-uninstall">Uninstall Package: pip uninstall<a class="anchor-link" href="#Uninstall-Package:-pip-uninstall">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects/Talk-VirtualEnvironments/my_project1$<span class="w"> </span>pip<span class="w"> </span>uninstall<span class="w"> </span>jocassid-commons
+Found<span class="w"> </span>existing<span class="w"> </span>installation:<span class="w"> </span>jocassid-commons<span class="w"> </span><span class="m">0</span>.0.8
+Uninstalling<span class="w"> </span>jocassid-commons-0.0.8:
+<span class="w">  </span>Would<span class="w"> </span>remove:
+<span class="w">    </span>/home/john/Projects/Talk-VirtualEnvironments/my_project1-venv/lib/python3.8/site-packages/jocassid_commons-0.0.8.dist-info/*
+<span class="w">    </span>/home/john/Projects/Talk-VirtualEnvironments/my_project1-venv/lib/python3.8/site-packages/jocassid_commons/*
+Proceed<span class="w"> </span><span class="o">(</span>y/n<span class="o">)</span>?<span class="w"> </span>y
+<span class="w">  </span>Successfully<span class="w"> </span>uninstalled<span class="w"> </span>jocassid-commons-0.0.8
 </pre></div>
 
-     </div>
 </div>
 </div>
 </div>
-
-</div><div id="cell-id=a59d7cef-29d0-4e17-a634-c041501b7854" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></section></section><section ><section >
+<div id="cell-id=91023f7a-073d-4993-b8b8-4146c4d0efee" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Shameless-Plug:-pip-viz">Shameless Plug: pip-viz<a class="anchor-link" href="#Shameless-Plug:-pip-viz">&#182;</a></h2><p>A package that I wrote to generate a diagram of pip dependencies.  This relies on <code>graphviz</code> to generate the diagram</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects/Talk-VirtualEnvironments/my_project1$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>pip-viz
+Collecting<span class="w"> </span>pip-viz
+<span class="w">  </span>Using<span class="w"> </span>cached<span class="w"> </span>pip_viz-0.0.4-py3-none-any.whl<span class="w"> </span><span class="o">(</span><span class="m">3</span>.8<span class="w"> </span>kB<span class="o">)</span>
+Collecting<span class="w"> </span>graphviz
+<span class="w">  </span>Using<span class="w"> </span>cached<span class="w"> </span>graphviz-0.20.3-py3-none-any.whl<span class="w"> </span><span class="o">(</span><span class="m">47</span><span class="w"> </span>kB<span class="o">)</span>
+Installing<span class="w"> </span>collected<span class="w"> </span>packages:<span class="w"> </span>graphviz,<span class="w"> </span>pip-viz
+Successfully<span class="w"> </span>installed<span class="w"> </span>graphviz-0.20.3<span class="w"> </span>pip-viz-0.0.4
 </pre></div>
 
-     </div>
 </div>
 </div>
 </div>
-
-</div><div id="cell-id=2784290d-1062-4ec9-9f75-b4896de7b67e" class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></section></section><section ><section >
+<div id="cell-id=3a16b7a5-5d27-4fc0-91b3-537a38082382" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="pip-viz-help">pip-viz help<a class="anchor-link" href="#pip-viz-help">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects/Talk-VirtualEnvironments/my_project1$<span class="w"> </span>pip-viz<span class="w"> </span>-h
+usage:<span class="w"> </span>pip-viz<span class="w"> </span><span class="o">[</span>-h<span class="o">]</span><span class="w"> </span>FILENAME_ROOT
+
+positional<span class="w"> </span>arguments:
+<span class="w">  </span>FILENAME_ROOT<span class="w">  </span>This<span class="w"> </span>script<span class="w"> </span>will<span class="w"> </span>generate<span class="w"> </span><span class="m">2</span><span class="w"> </span>files:<span class="w"> </span>FILENAME_ROOT.gv<span class="w"> </span>AND
+<span class="w">                 </span>FILENAME_ROOT.gv.svg
+
+optional<span class="w"> </span>arguments:
+<span class="w">  </span>-h,<span class="w"> </span>--help<span class="w">     </span>show<span class="w"> </span>this<span class="w"> </span><span class="nb">help</span><span class="w"> </span>message<span class="w"> </span>and<span class="w"> </span><span class="nb">exit</span>
 </pre></div>
 
-     </div>
 </div>
 </div>
 </div>
+</div></section></section><section ><section >
+<div id="cell-id=1568ce1e-4769-4630-8a5f-88558b288faa" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Running-pip-viz">Running pip viz<a class="anchor-link" href="#Running-pip-viz">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects/Talk-VirtualEnvironments/my_project1$<span class="w"> </span>pip-viz<span class="w"> </span>dependencies
+Processing<span class="w"> </span>certifi
+Processing<span class="w"> </span>charset-normalizer
+Processing<span class="w"> </span>graphviz
+Processing<span class="w"> </span>idna
+Processing<span class="w"> </span>pip
+Processing<span class="w"> </span>pip-viz
+Processing<span class="w"> </span>pkg-resources
+Processing<span class="w"> </span>requests
+Processing<span class="w"> </span>setuptools
+Processing<span class="w"> </span>urllib3
+<span class="o">(</span>my_project1-venv<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects/Talk-VirtualEnvironments/my_project1$
+</pre></div>
 
 </div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=382230f9-0934-4b8f-88ab-3bac2d6183cf" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="pip-viz-Generated-Diagram-dependencies.gv.svg">pip-viz Generated Diagram dependencies.gv.svg<a class="anchor-link" href="#pip-viz-Generated-Diagram-dependencies.gv.svg">&#182;</a></h3><p><img src="my_project1/dependencies.gv.svg" alt="Image" /></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=26ed577e-34a6-469c-8e6f-de3079f2833c" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Conda">Conda<a class="anchor-link" href="#Conda">&#182;</a></h2><ul>
+<li>pip may install packages that need to compile some sort of extension (i.e. Numpy is an extention to python that contains a library in C that allows python to run math operations nearly as fast as native code)</li>
+<li>The compile step usually happens automatically on Linux (and Mac?)</li>
+<li>Conda provides pre-compiled versions of these packages which is handy for OSs that don't ship with compilers (i.e. Windows and Mac?)</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div id="cell-id=949077ad-3cd4-477d-9d6d-95e543f6905f" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>A Couple Observations on Conda</strong></p>
+<ul>
+<li>Tends to go for a leading edge (i.e. packaged with a Python 3.12 interpreter, makes it easy to upgrade to the latest compatible version of packages)</li>
+<li>Output of command is rather verbose</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section></section><section ><section >
+<div id="cell-id=51d83392-d65b-40fd-9586-c5158cc4993d" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Conda-vs.-Anaconda">Conda vs. Anaconda<a class="anchor-link" href="#Conda-vs.-Anaconda">&#182;</a></h3><ul>
+<li>Both are supported by Anaconda Inc (formerly Continuum Analytics?)</li>
+<li><a href="https://conda.io">Conda</a> is the package manager</li>
+<li><a href="https://www.anaconda.com/">Anaconda</a> is a distribution of data science tools (A Jupyter environment with the standard libraries already installed, and other useful tools)</li>
+<li>There is a free-tier of Anaconda</li>
+<li>Conda may be installed independently of Anaconda</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=a44b11f0-3a0c-4121-8ffa-e3eaa7a5cab5" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Miniconda-Actually">Miniconda Actually<a class="anchor-link" href="#Miniconda-Actually">&#182;</a></h3><blockquote>
+<p>Miniconda is a free minimal installer for conda. It is a small bootstrap version of Anaconda that includes only conda, Python, the packages they both depend on, and a small number of other useful packages (like pip, zlib, and a few others).</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=d34228f3-c3d0-4d6e-955e-5e996a8e8b14" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Minconda-Download-&amp;-install">Minconda Download &amp; install<a class="anchor-link" href="#Minconda-Download-&amp;-install">&#182;</a></h3><ul>
+<li>Download installer from <a href="https://docs.anaconda.com/miniconda/">https://docs.anaconda.com/miniconda/</a></li>
+<li>Instructions on this page</li>
+<li>For Mac and Linux you need to run a <code>conda init SHELL</code> to modify your shell settings</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=f13fa0b8-6ec2-4157-b429-e93f55e3703a" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="highlight"><pre><span></span>john@desktop:~/miniconda3$<span class="w"> </span>bash<span class="w"> </span>Miniconda3-latest-Linux-x86_64.sh<span class="w"> </span>-b<span class="w"> </span>-u<span class="w"> </span>-p<span class="w"> </span>~/miniconda3/
+<span class="nv">PREFIX</span><span class="o">=</span>/home/john/miniconda3
+Unpacking<span class="w"> </span>payload<span class="w"> </span>...
+
+Installing<span class="w"> </span>base<span class="w"> </span>environment...
+
+Preparing<span class="w"> </span>transaction:<span class="w"> </span>...working...<span class="w"> </span><span class="k">done</span>
+Executing<span class="w"> </span>transaction:<span class="w"> </span>...working...<span class="w"> </span><span class="k">done</span>
+installation<span class="w"> </span>finished.
+WARNING:
+<span class="w">    </span>You<span class="w"> </span>currently<span class="w"> </span>have<span class="w"> </span>a<span class="w"> </span>PYTHONPATH<span class="w"> </span>environment<span class="w"> </span>variable<span class="w"> </span>set.<span class="w"> </span>This<span class="w"> </span>may<span class="w"> </span>cause
+<span class="w">    </span>unexpected<span class="w"> </span>behavior<span class="w"> </span>when<span class="w"> </span>running<span class="w"> </span>the<span class="w"> </span>Python<span class="w"> </span>interpreter<span class="w"> </span><span class="k">in</span><span class="w"> </span>Miniconda3.
+<span class="w">    </span>For<span class="w"> </span>best<span class="w"> </span>results,<span class="w"> </span>please<span class="w"> </span>verify<span class="w"> </span>that<span class="w"> </span>your<span class="w"> </span>PYTHONPATH<span class="w"> </span>only<span class="w"> </span>points<span class="w"> </span>to
+<span class="w">    </span>directories<span class="w"> </span>of<span class="w"> </span>packages<span class="w"> </span>that<span class="w"> </span>are<span class="w"> </span>compatible<span class="w"> </span>with<span class="w"> </span>the<span class="w"> </span>Python<span class="w"> </span>interpreter
+<span class="w">    </span><span class="k">in</span><span class="w"> </span>Miniconda3:<span class="w"> </span>/home/john/miniconda3
+john@desktop:~/miniconda3$<span class="w"> </span><span class="nb">unset</span><span class="w"> </span>PYTHONPATH
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=9f7ce99e-a8c5-4959-85d4-366518dd63a3" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<div class="highlight"><pre><span></span>john@desktop:~/miniconda3$<span class="w"> </span>~/miniconda3/bin/conda<span class="w"> </span>init<span class="w"> </span>bash
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/condabin/conda
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/bin/conda
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/bin/conda-env
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/bin/activate
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/bin/deactivate
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/etc/profile.d/conda.sh
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/etc/fish/conf.d/conda.fish
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/shell/condabin/Conda.psm1
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/shell/condabin/conda-hook.ps1
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no<span class="w"> </span>change<span class="w">     </span>/home/john/miniconda3/etc/profile.d/conda.csh
+modified<span class="w">      </span>/home/john/.bashrc
+
+<span class="o">==</span>&gt;<span class="w"> </span>For<span class="w"> </span>changes<span class="w"> </span>to<span class="w"> </span>take<span class="w"> </span>effect,<span class="w"> </span>close<span class="w"> </span>and<span class="w"> </span>re-open<span class="w"> </span>your<span class="w"> </span>current<span class="w"> </span>shell.<span class="w"> </span>&lt;<span class="o">==</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=c0e0f941-cd85-4d77-9de0-908925ae52cc" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="After-re-starting-the-shell">After re-starting the shell<a class="anchor-link" href="#After-re-starting-the-shell">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~/Projects/my_project2
+<span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project2$
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=b0701d8a-9498-4a5a-b66e-017857e83307" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Conda-List-Comands:-conda---help">Conda List Comands: conda --help<a class="anchor-link" href="#Conda-List-Comands:-conda---help">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project2$<span class="w"> </span>conda<span class="w"> </span>--help
+usage:<span class="w"> </span>conda<span class="w"> </span><span class="o">[</span>-h<span class="o">]</span><span class="w"> </span><span class="o">[</span>-v<span class="o">]</span><span class="w"> </span><span class="o">[</span>--no-plugins<span class="o">]</span><span class="w"> </span><span class="o">[</span>-V<span class="o">]</span><span class="w"> </span>COMMAND<span class="w"> </span>...
+
+conda<span class="w"> </span>is<span class="w"> </span>a<span class="w"> </span>tool<span class="w"> </span><span class="k">for</span><span class="w"> </span>managing<span class="w"> </span>and<span class="w"> </span>deploying<span class="w"> </span>applications,<span class="w"> </span>environments<span class="w"> </span>and<span class="w"> </span>packages.
+
+options:
+<span class="w">  </span>-h,<span class="w"> </span>--help<span class="w">          </span>Show<span class="w"> </span>this<span class="w"> </span><span class="nb">help</span><span class="w"> </span>message<span class="w"> </span>and<span class="w"> </span>exit.
+...
+
+commands:
+<span class="w">  </span>The<span class="w"> </span>following<span class="w"> </span>built-in<span class="w"> </span>and<span class="w"> </span>plugins<span class="w"> </span>subcommands<span class="w"> </span>are<span class="w"> </span>available.
+
+<span class="w">  </span>COMMAND
+<span class="w">    </span>activate<span class="w">          </span>Activate<span class="w"> </span>a<span class="w"> </span>conda<span class="w"> </span>environment.
+<span class="w">    </span>clean<span class="w">             </span>Remove<span class="w"> </span>unused<span class="w"> </span>packages<span class="w"> </span>and<span class="w"> </span>caches.
+</pre></div>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div id="cell-id=494bf8cb-370f-4245-9649-40a759311bc5" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>If you just do a <code>conda help</code> it just spits out a list of commands in a single wrapped line</p>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section></section><section ><section >
+<div id="cell-id=f667407b-a473-45ba-9166-bccf9c567952" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Help-on-Specific-Command:-conda-COMMAND---help">Help on Specific Command: conda COMMAND --help<a class="anchor-link" href="#Help-on-Specific-Command:-conda-COMMAND---help">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>--help
+
+ActivateHelp:<span class="w"> </span>usage:<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span><span class="o">[</span>-h<span class="o">]</span><span class="w"> </span><span class="o">[</span>--<span class="o">[</span>no-<span class="o">]</span>stack<span class="o">]</span><span class="w"> </span><span class="o">[</span>env_name_or_prefix<span class="o">]</span>
+...
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=4824395c-be9d-4814-b7e2-3b4df637bf77" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Conda-Create-Virtual-Environment:-conda-create">Conda Create Virtual Environment: conda create<a class="anchor-link" href="#Conda-Create-Virtual-Environment:-conda-create">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project2$<span class="w"> </span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>my_project2
+Channels:
+<span class="w"> </span>-<span class="w"> </span>defaults
+Platform:<span class="w"> </span>linux-64
+Collecting<span class="w"> </span>package<span class="w"> </span>metadata<span class="w"> </span><span class="o">(</span>repodata.json<span class="o">)</span>:<span class="w"> </span><span class="k">done</span>
+Solving<span class="w"> </span>environment:<span class="w"> </span><span class="k">done</span>
+
+<span class="c1">## Package Plan ##</span>
+<span class="w">  </span>environment<span class="w"> </span>location:<span class="w"> </span>/home/john/miniconda3/envs/my_project2
+
+Proceed<span class="w"> </span><span class="o">([</span>y<span class="o">]</span>/n<span class="o">)</span>?<span class="w"> </span>y
+...
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=1c320323-fe23-443e-95f6-66d69f82f0ec" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Create-Venv-With-Specified-Packages">Create Venv With Specified Packages<a class="anchor-link" href="#Create-Venv-With-Specified-Packages">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects/my_project2$<span class="w"> </span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>my_project3<span class="w"> </span>python<span class="w"> </span>numpy<span class="w"> </span>pandas
+...
+
+<span class="c1">## Package Plan ##</span>
+<span class="w">  </span>environment<span class="w"> </span>location:<span class="w"> </span>/home/john/miniconda3/envs/my_project3
+<span class="w">  </span>added<span class="w"> </span>/<span class="w"> </span>updated<span class="w"> </span>specs:
+<span class="w">    </span>-<span class="w"> </span>numpy
+<span class="w">    </span>...
+
+The<span class="w"> </span>following<span class="w"> </span>packages<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>downloaded:
+<span class="w">    </span>package<span class="w">                    </span><span class="p">|</span><span class="w">            </span>build
+<span class="w">    </span>---------------------------<span class="p">|</span>-----------------
+<span class="w">    </span>...
+<span class="w">    </span>wheel-0.44.0<span class="w">               </span><span class="p">|</span><span class="w">  </span>py312h06a4308_0<span class="w">         </span><span class="m">141</span><span class="w"> </span>KB
+<span class="w">    </span>------------------------------------------------------------
+<span class="w">                                           </span>Total:<span class="w">       </span><span class="m">258</span>.0<span class="w"> </span>MB
+
+The<span class="w"> </span>following<span class="w"> </span>NEW<span class="w"> </span>packages<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>INSTALLED:
+<span class="w">  </span>_libgcc_mutex<span class="w">      </span>pkgs/main/linux-64::_libgcc_mutex-0.1-main<span class="w"> </span>
+<span class="w">  </span>...
+<span class="w">  </span>zlib<span class="w">               </span>pkgs/main/linux-64::zlib-1.2.13-h5eee18b_1<span class="w"> </span>
+...
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=1e147755-cf89-4f2b-917f-f92646ab971f" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="List-Virtual-Environments:-conda-info">List Virtual Environments: conda info<a class="anchor-link" href="#List-Virtual-Environments:-conda-info">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>info<span class="w"> </span>--envs
+<span class="c1"># conda environments:</span>
+<span class="c1">#</span>
+base<span class="w">                  </span>*<span class="w">  </span>/home/john/miniconda3
+my_project2<span class="w">              </span>/home/john/miniconda3/envs/my_project2
+my_project3<span class="w">              </span>/home/john/miniconda3/envs/my_project3
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=055fa515-bcf8-4bad-b030-d8dfaefa88f7" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Activate-Virtual-Environment:-conda-activate">Activate Virtual Environment: conda activate<a class="anchor-link" href="#Activate-Virtual-Environment:-conda-activate">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>mkdir<span class="w"> </span>my_project3<span class="w">  </span><span class="c1"># A place for source code</span>
+<span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>my_project3
+<span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=2e205a30-cbdf-4c03-8475-1bd0a37982ba" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Deactivate-Virtual-Environment:-conda-activate">Deactivate Virtual Environment: conda activate<a class="anchor-link" href="#Deactivate-Virtual-Environment:-conda-activate">&#182;</a></h3><p><code>conda activate</code> without naming a virtual environment returns you to the <code>(base)</code> environment</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>activate
+<span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects$
+</pre></div>
+<p><code>conda deactivate</code> also works</p>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=2a459f17-0950-47a6-b004-555892880028" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Install-Packages:-conda-install">Install Packages: conda install<a class="anchor-link" href="#Install-Packages:-conda-install">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>install<span class="w"> </span>requests
+...
+The<span class="w"> </span>following<span class="w"> </span>NEW<span class="w"> </span>packages<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>INSTALLED:
+
+<span class="w">  </span>brotli-python<span class="w">      </span>pkgs/main/linux-64::brotli-python-1.0.9-py312h6a678d5_8<span class="w"> </span>
+<span class="w">  </span>certifi<span class="w">            </span>pkgs/main/linux-64::certifi-2024.8.30-py312h06a4308_0<span class="w"> </span>
+...
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=b0724e31-fb8b-4ffd-a601-868a452a542f" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="List-Installed-Packages:-conda-list">List Installed Packages: conda list<a class="anchor-link" href="#List-Installed-Packages:-conda-list">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>list
+<span class="c1"># packages in environment at /home/john/miniconda3/envs/my_project3:</span>
+<span class="c1">#</span>
+<span class="c1"># Name                    Version                   Build  Channel</span>
+_libgcc_mutex<span class="w">             </span><span class="m">0</span>.1<span class="w">                        </span>main<span class="w">  </span>
+_openmp_mutex<span class="w">             </span><span class="m">5</span>.1<span class="w">                       </span>1_gnu<span class="w">  </span>
+blas<span class="w">                      </span><span class="m">1</span>.0<span class="w">                         </span>mkl<span class="w">  </span>
+...
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=06b6deb9-bc66-448d-bdae-3a3d630f84bd" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Filter-List-of-Installed-Packages:-conda-list-REGEX">Filter List of Installed Packages: conda list REGEX<a class="anchor-link" href="#Filter-List-of-Installed-Packages:-conda-list-REGEX">&#182;</a></h3><p>Handily, you can filter the list of installed packages.</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>list<span class="w"> </span>matplotlib
+<span class="c1"># packages in environment at /home/john/miniconda3:</span>
+<span class="c1">#</span>
+<span class="c1"># Name                    Version                   Build  Channel</span>
+matplotlib<span class="w">                </span><span class="m">3</span>.9.2<span class="w">           </span>py312h06a4308_0<span class="w">  </span>
+matplotlib-base<span class="w">           </span><span class="m">3</span>.9.2<span class="w">           </span>py312h66fe004_0
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=e78b34c7-2b79-49f4-8e33-b615b274af94" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Install-a-Specific-Version-of-a-Package:-conda-install">Install a Specific Version of a Package: conda install<a class="anchor-link" href="#Install-a-Specific-Version-of-a-Package:-conda-install">&#182;</a></h3><p>By specifying a specific version of a package you can upgrade/downgrade a package</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>install<span class="w"> </span><span class="nv">requests</span><span class="o">==</span><span class="m">2</span>.31.0
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=b3a69c12-8bd8-4585-87be-6d0eea94456d" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Update-Package-to-Latest-Compatible-Version">Update Package to Latest Compatible Version<a class="anchor-link" href="#Update-Package-to-Latest-Compatible-Version">&#182;</a></h3><p>To upgrate 1 package to latest possible version</p>
+<p><code>conda update</code></p>
+<p>Upgrate all packages to latest possible version</p>
+<p><code>conda update --update-all</code></p>
+<p>To update conda, deactivate virtual environment (switch to base environment first)</p>
+<div class="highlight"><pre><span></span><span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects/Talk-VirtualEnvironments$<span class="w"> </span>conda<span class="w"> </span>activate
+<span class="o">(</span>base<span class="o">)</span><span class="w"> </span>john@ridcully:~/Projects/Talk-VirtualEnvironments$<span class="w"> </span>conda<span class="w"> </span>update<span class="w"> </span>conda
+</pre></div>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=acbd533e-4828-4a6b-9b95-ec633f2672c5" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Create-a-Reproducible-Environment:-conda-list---export">Create a Reproducible Environment: conda list --export<a class="anchor-link" href="#Create-a-Reproducible-Environment:-conda-list---export">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">(</span>my_project3<span class="o">)</span><span class="w"> </span>john@desktop:~/Projects$<span class="w"> </span>conda<span class="w"> </span>list<span class="w"> </span>--export
+<span class="c1"># This file may be used to create an environment using:</span>
+<span class="c1"># $ conda create --name &lt;env&gt; --file &lt;this file&gt;</span>
+<span class="c1"># platform: linux-64</span>
+<span class="nv">_libgcc_mutex</span><span class="o">=</span><span class="m">0</span>.1<span class="o">=</span>main
+<span class="nv">_openmp_mutex</span><span class="o">=</span><span class="m">5</span>.1<span class="o">=</span>1_gnu
+<span class="nv">blas</span><span class="o">=</span><span class="m">1</span>.0<span class="o">=</span>mkl
+<span class="nv">bottleneck</span><span class="o">=</span><span class="m">1</span>.3.7<span class="o">=</span>py312ha883a20_0
+brotli-python<span class="o">=</span><span class="m">1</span>.0.9<span class="o">=</span>py312h6a678d5_8
+</pre></div>
+<p><strong>Redirect to a File so Virtual Environment may be Reproduced</strong>
+<code>conda list --export &gt; package-list.txt</code></p>
+
+</div>
+</div>
+</div>
+</div><aside class="notes">
+
+<div id="cell-id=c9479b90-2c5f-4f7f-8545-4eac2b63665d" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>Note</strong></p>
+<ul>
+<li>this is a different format than the one used by <code>pip freeze</code></li>
+<li>redirect stdout to create a file that can be used to rebuild</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</aside></section></section><section ><section >
+<div id="cell-id=0d14dfa9-db7c-40c9-91f7-5f1ff8c39267" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Delete-the-Virtual-environment:">Delete the Virtual environment:<a class="anchor-link" href="#Delete-the-Virtual-environment:">&#182;</a></h3><pre><code>base
+(my_project3) john@desktop:~/Projects$ conda deactivate  # can't delete active virtual environment
+(base) john@desktop:~/Projects$ conda env remove -n my_project3
+
+Remove all packages in environment /home/john/miniconda3/envs/my_project3:
+
+Everything found within the environment (/home/john/miniconda3/envs/my_project3), including any conda environment configurations and any non-conda files, will be deleted. Do you wish to continue?
+ (y/[n])? y
+</code></pre>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
+<div id="cell-id=1d3a8498-7cdf-48ec-a23b-d93cb49b8c68" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Re-create-the-Virtual-Environment">Re-create the Virtual Environment<a class="anchor-link" href="#Re-create-the-Virtual-Environment">&#182;</a></h3><p><code>conda create --name my_project3 --file package-list.txt</code></p>
+
+</div>
+</div>
+</div>
+</div></section></section><section ><section >
 <div id="cell-id=9844f2b3-266e-4671-a711-d869faf2d17b" class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -15696,9 +16224,11 @@ Successfully<span class="w"> </span>installed<span class="w"> </span>certifi-202
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Resources">Resources<a class="anchor-link" href="#Resources">&#182;</a></h2><ul>
-<li><a href="https://realpython.com/python-virtual-environments-a-primer/">https://realpython.com/python-virtual-environments-a-primer/</a></li>
-<li><a href="https://towardsdatascience.com/comparing-python-virtual-environment-tools-9a6543643a44">https://towardsdatascience.com/comparing-python-virtual-environment-tools-9a6543643a44</a></li>
-<li><a href="https://towardsdatascience.com/python-virtual-environments-made-easy-fe0c603fe601">https://towardsdatascience.com/python-virtual-environments-made-easy-fe0c603fe601</a></li>
+<li><a href="https://pip.pypa.io/en/stable/">https://pip.pypa.io/en/stable/</a></li>
+<li><a href="https://www.anaconda.com/">https://www.anaconda.com/</a></li>
+<li><a href="https://anaconda.org/">https://anaconda.org/</a></li>
+<li><a href="https://docs.conda.io/">https://docs.conda.io/</a></li>
+<li><a href="https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html">https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html</a></li>
 </ul>
 
 </div>
