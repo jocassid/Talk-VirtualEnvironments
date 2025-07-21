@@ -1,3 +1,5 @@
 .idea
 .ipynb_checkpoints/
 my_project1-venv/
+my_project3/Pipfile
+my_project3/Pipfile.lock
